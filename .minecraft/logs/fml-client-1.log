@@ -1,0 +1,1113 @@
+[10:29:30] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[10:29:30] [main/INFO] [FML/]: Forge Mod Loader version 13.20.0.2201 for Minecraft 1.11.2 loading
+[10:29:30] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_421, running on Windows 11:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_421
+[10:29:30] [main/DEBUG] [FML/]: Java classpath at launch is F:\game\minecraft\.minecraft\libraries\net\minecraftforge\forge\1.11.2-13.20.0.2201\forge-1.11.2-13.20.0.2201.jar;F:\game\minecraft\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar;F:\game\minecraft\.minecraft\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar;F:\game\minecraft\.minecraft\libraries\jline\jline\2.13\jline-2.13.jar;F:\game\minecraft\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar;F:\game\minecraft\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar;F:\game\minecraft\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar;F:\game\minecraft\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar;F:\game\minecraft\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar;F:\game\minecraft\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar;F:\game\minecraft\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar;F:\game\minecraft\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar;F:\game\minecraft\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar;F:\game\minecraft\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar;F:\game\minecraft\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar;F:\game\minecraft\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar;F:\game\minecraft\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;F:\game\minecraft\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar;F:\game\minecraft\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar;F:\game\minecraft\.minecraft\libraries\com\mojang\netty\1.6\netty-1.6.jar;F:\game\minecraft\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;F:\game\minecraft\.minecraft\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;F:\game\minecraft\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;F:\game\minecraft\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;F:\game\minecraft\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;F:\game\minecraft\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;F:\game\minecraft\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;F:\game\minecraft\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;F:\game\minecraft\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;F:\game\minecraft\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;F:\game\minecraft\.minecraft\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar;F:\game\minecraft\.minecraft\libraries\com\google\guava\guava\17.0\guava-17.0.jar;F:\game\minecraft\.minecraft\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;F:\game\minecraft\.minecraft\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;F:\game\minecraft\.minecraft\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;F:\game\minecraft\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;F:\game\minecraft\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;F:\game\minecraft\.minecraft\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;F:\game\minecraft\.minecraft\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar;F:\game\minecraft\.minecraft\libraries\com\mojang\realms\1.10.8\realms-1.10.8.jar;F:\game\minecraft\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;F:\game\minecraft\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;F:\game\minecraft\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;F:\game\minecraft\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;F:\game\minecraft\.minecraft\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar;F:\game\minecraft\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;F:\game\minecraft\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;F:\game\minecraft\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;F:\game\minecraft\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;F:\game\minecraft\.minecraft\versions\1.11.2\1.11.2.jar
+[10:29:30] [main/DEBUG] [FML/]: Java library path at launch is F:\game\minecraft\.minecraft\versions\1.11.2-forge1.11.2-13.20.0.2201\1.11.2-forge1.11.2-13.20.0.2201-natives
+[10:29:30] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[10:29:30] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[10:29:30] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[10:29:30] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[10:29:30] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[10:29:30] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[10:29:30] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[10:29:30] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to F:\game\minecraft\.minecraft
+[10:29:30] [main/DEBUG] [FML/]: Discovering coremods
+[10:29:30] [main/DEBUG] [FML/]: Examining for coremod candidacy [更详细的资源信息]JustEnoughResources-1.11.2-0.6.2.101-CN.jar
+[10:29:30] [main/DEBUG] [FML/]: Not found coremod data in [更详细的资源信息]JustEnoughResources-1.11.2-0.6.2.101-CN.jar
+[10:29:30] [main/DEBUG] [FML/]: Examining for coremod candidacy [更详细的采集信息]WailaHarvestability-mc1.11-1.1.9-CN.jar
+[10:29:30] [main/DEBUG] [FML/]: Not found coremod data in [更详细的采集信息]WailaHarvestability-mc1.11-1.1.9-CN.jar
+[10:29:30] [main/DEBUG] [FML/]: Examining for coremod candidacy [游戏优化]OptiFine_1.11.2_HD_U_B5.jar
+[10:29:30] [main/INFO] [FML/]: Loading tweaker optifine.OptiFineForgeTweaker from [游戏优化]OptiFine_1.11.2_HD_U_B5.jar
+[10:29:30] [main/DEBUG] [FML/]: Examining for coremod candidacy [物品管理器]jei_1.11.2-4.2.2.215.jar
+[10:29:30] [main/DEBUG] [FML/]: Not found coremod data in [物品管理器]jei_1.11.2-4.2.2.215.jar
+[10:29:30] [main/DEBUG] [FML/]: Examining for coremod candidacy [耐久度显示]Durability Show-1.11.2-4.1.0-CN.jar
+[10:29:30] [main/DEBUG] [FML/]: Not found coremod data in [耐久度显示]Durability Show-1.11.2-4.1.0-CN.jar
+[10:29:30] [main/DEBUG] [FML/]: Examining for coremod candidacy [自定义堆叠数量]stacksize-1.11.2-1.0.jar
+[10:29:30] [main/DEBUG] [FML/]: Not found coremod data in [自定义堆叠数量]stacksize-1.11.2-1.0.jar
+[10:29:30] [main/DEBUG] [FML/]: Examining for coremod candidacy [血量及伤害显示]torohealth-1.11.2-8.jar
+[10:29:30] [main/DEBUG] [FML/]: Not found coremod data in [血量及伤害显示]torohealth-1.11.2-8.jar
+[10:29:30] [main/DEBUG] [FML/]: Examining for coremod candidacy [额外信息显示]Hwyla-1.8.5-B19_1.11-CN.jar
+[10:29:30] [main/DEBUG] [FML/]: Not found coremod data in [额外信息显示]Hwyla-1.8.5-B19_1.11-CN.jar
+[10:29:30] [main/DEBUG] [FML/]: Examining for coremod candidacy mcmap.cc-[失落的城市MOD][1.11.2].jar
+[10:29:30] [main/DEBUG] [FML/]: Not found coremod data in mcmap.cc-[失落的城市MOD][1.11.2].jar
+[10:29:30] [main/DEBUG] [FML/]: Examining for coremod candidacy mcmap.cc-[失落的城市前置MOD][1.11.2].jar
+[10:29:30] [main/DEBUG] [FML/]: Not found coremod data in mcmap.cc-[失落的城市前置MOD][1.11.2].jar
+[10:29:30] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:29:30] [main/INFO] [LaunchWrapper/]: Loading tweak class name optifine.OptiFineForgeTweaker
+[10:29:30] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:29:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:29:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:29:30] [main/INFO] [LaunchWrapper/]: Calling tweak class optifine.OptiFineForgeTweaker
+[10:29:30] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[10:29:30] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[10:29:30] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:266]: OptiFine ClassTransformer
+[10:29:30] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:266]: OptiFine URL: file:/F:/game/minecraft/.minecraft/mods/%5B游戏优化%5DOptiFine_1.11.2_HD_U_B5.jar
+[10:29:30] [main/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:266]: OptiFine ZIP file: F:\game\minecraft\.minecraft\mods\[游戏优化]OptiFine_1.11.2_HD_U_B5.jar
+[10:29:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:29:30] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[10:29:30] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[10:29:30] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[10:29:30] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[10:29:30] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[10:29:30] [main/DEBUG] [FML/]: Injection complete
+[10:29:30] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[10:29:30] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[10:29:30] [main/DEBUG] [FML/]: Read 942 binary patches
+[10:29:30] [main/DEBUG] [FML/]: Loading deobfuscation resource /deobfuscation_data-1.11.2.lzma with 33539 records
+[10:29:30] [main/ERROR] [FML/]: The minecraft jar file:/F:/game/minecraft/.minecraft/versions/1.11.2/1.11.2.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
+[10:29:30] [main/ERROR] [FML/]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
+[10:29:30] [main/ERROR] [FML/]: Technical information: ClientBrandRetriever was at jar:file:/F:/game/minecraft/.minecraft/versions/1.11.2/1.11.2.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
+[10:29:30] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[10:29:30] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[10:29:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:29:30] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[10:29:30] [main/DEBUG] [FML/]: Injection complete
+[10:29:30] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[10:29:30] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[10:29:30] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[10:29:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:29:30] [main/DEBUG] [FML/]: Loaded 190 rules from AccessTransformer config file forge_at.cfg
+[10:29:30] [main/DEBUG] [FML/]: Loaded 4 rules from AccessTransformer mod jar file F:\game\minecraft\.minecraft\mods\mcmap.cc-[失落的城市MOD][1.11.2].jar!META-INF/lostcities_at.cfg
+
+[10:29:30] [main/DEBUG] [FML/]: Loaded 9 rules from AccessTransformer mod jar file F:\game\minecraft\.minecraft\mods\[更详细的资源信息]JustEnoughResources-1.11.2-0.6.2.101-CN.jar!META-INF/jeresources_at.cfg
+
+[10:29:30] [main/DEBUG] [FML/]: Loaded 2 rules from AccessTransformer mod jar file F:\game\minecraft\.minecraft\mods\[物品管理器]jei_1.11.2-4.2.2.215.jar!META-INF/jei_at.cfg
+
+[10:29:30] [main/DEBUG] [FML/]: Validating minecraft
+[10:29:30] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[10:29:30] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:29:30] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:29:30] [main/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[10:29:30] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[10:29:32] [Client thread/DEBUG] [FML/]: Creating vanilla freeze snapshot
+[10:29:32] [Client thread/DEBUG] [FML/]: Vanilla freeze snapshot created
+[10:29:32] [Client thread/INFO] [Config/]: [OptiFine] *** Reflector Forge ***
+[10:29:32] [Client thread/INFO] [Config/]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[10:29:32] [Client thread/INFO] [Config/]: [OptiFine] *** Reflector Vanilla ***
+[10:29:32] [Client thread/INFO] [Config/]: [OptiFine] 
+[10:29:32] [Client thread/INFO] [Config/]: [OptiFine] OptiFine_1.11.2_HD_U_B5
+[10:29:32] [Client thread/INFO] [Config/]: [OptiFine] Build: 20161222-122306
+[10:29:32] [Client thread/INFO] [Config/]: [OptiFine] OS: Windows 11 (amd64) version 10.0
+[10:29:32] [Client thread/INFO] [Config/]: [OptiFine] Java: 1.8.0_421, Oracle Corporation
+[10:29:32] [Client thread/INFO] [Config/]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[10:29:32] [Client thread/INFO] [Config/]: [OptiFine] LWJGL: 2.9.4
+[10:29:32] [Client thread/INFO] [Config/]: [OptiFine] OpenGL: AMD Radeon(TM) Graphics, version 4.6.0 Compatibility Profile Context 26.3.1.260303, ATI Technologies Inc.
+[10:29:32] [Client thread/INFO] [Config/]: [OptiFine] OpenGL Version: 4.0
+[10:29:32] [Client thread/INFO] [Config/]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[10:29:32] [Client thread/INFO] [Config/]: [OptiFine] Maximum texture size: 16384x16384
+[10:29:32] [Thread-5/INFO] [Config/]: [OptiFine] Checking for new version
+[10:29:32] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] ShadersMod version: 2.4.12
+[10:29:32] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] OpenGL Version: 4.6.0 Compatibility Profile Context 26.3.1.260303
+[10:29:32] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] Vendor:  ATI Technologies Inc.
+[10:29:32] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] Renderer: AMD Radeon(TM) Graphics
+[10:29:32] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[10:29:32] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[10:29:32] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[10:29:32] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[10:29:32] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] Load ShadersMod configuration.
+[10:29:32] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] Save ShadersMod configuration.
+[10:29:32] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] Shaders can not be loaded, Fast Render is enabled.
+[10:29:32] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] No shaderpack loaded.
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.001s
+[10:29:33] [Client thread/INFO] [FML/]: Forge Mod Loader has detected optifine OptiFine_1.11.2_HD_U_B5, enabling compatibility features
+[10:29:33] [Client thread/INFO] [FML/]: MinecraftForge v13.20.0.2201 Initialized
+[10:29:33] [Client thread/INFO] [FML/]: Replaced 232 ore recipes
+[10:29:33] [Client thread/DEBUG] [FML/]: File F:\game\minecraft\.minecraft\config\injectedDependencies.json not found. No dependencies injected
+[10:29:33] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[10:29:33] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[10:29:33] [Client thread/DEBUG] [FML/]: Found a minecraft related file at F:\game\minecraft\.minecraft\libraries\net\minecraftforge\forge\1.11.2-13.20.0.2201\forge-1.11.2-13.20.0.2201.jar, examining for mod candidates
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\jline\jline\2.13\jline-2.13.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\com\mojang\netty\1.6\netty-1.6.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\com\google\guava\guava\17.0\guava-17.0.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\com\mojang\authlib\1.5.24\authlib-1.5.24.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\com\mojang\realms\1.10.8\realms-1.10.8.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\it\unimi\dsi\fastutil\7.0.12_mojang\fastutil-7.0.12_mojang.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Found a minecraft related file at F:\game\minecraft\.minecraft\versions\1.11.2\1.11.2.jar, examining for mod candidates
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping known library file F:\game\minecraft\.minecraft\mods\[游戏优化]OptiFine_1.11.2_HD_U_B5.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[10:29:33] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[10:29:33] [Client thread/INFO] [FML/]: Searching F:\game\minecraft\.minecraft\mods for mods
+[10:29:33] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [更详细的资源信息]JustEnoughResources-1.11.2-0.6.2.101-CN.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [更详细的采集信息]WailaHarvestability-mc1.11-1.1.9-CN.jar
+[10:29:33] [Client thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker [游戏优化]OptiFine_1.11.2_HD_U_B5.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [物品管理器]jei_1.11.2-4.2.2.215.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [耐久度显示]Durability Show-1.11.2-4.1.0-CN.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [自定义堆叠数量]stacksize-1.11.2-1.0.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [血量及伤害显示]torohealth-1.11.2-8.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file [额外信息显示]Hwyla-1.8.5-B19_1.11-CN.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file mcmap.cc-[失落的城市MOD][1.11.2].jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file mcmap.cc-[失落的城市前置MOD][1.11.2].jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Ignoring unknown file 下载1.11.2模组.url in mods directory
+[10:29:33] [Client thread/DEBUG] [FML/]: Examining file forge-1.11.2-13.20.0.2201.jar for potential mods
+[10:29:33] [Client thread/DEBUG] [FML/]: The mod container forge-1.11.2-13.20.0.2201.jar appears to be missing an mcmod.info file
+[10:29:33] [Thread-5/INFO] [Config/]: [OptiFine] Version found: G5
+[10:29:33] [Client thread/DEBUG] [FML/]: Examining file 1.11.2.jar for potential mods
+[10:29:33] [Client thread/DEBUG] [FML/]: The mod container 1.11.2.jar appears to be missing an mcmod.info file
+[10:29:33] [Client thread/DEBUG] [FML/]: Examining file [更详细的资源信息]JustEnoughResources-1.11.2-0.6.2.101-CN.jar for potential mods
+[10:29:33] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [更详细的资源信息]JustEnoughResources-1.11.2-0.6.2.101-CN.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (jeresources.JEResources) - loading
+[10:29:33] [Client thread/TRACE] [jeresources/]: Parsed dependency info : [jei@[4.0.0,)] [jei@[4.0.0,)] []
+[10:29:33] [Client thread/DEBUG] [FML/]: Examining file [更详细的采集信息]WailaHarvestability-mc1.11-1.1.9-CN.jar for potential mods
+[10:29:33] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [更详细的采集信息]WailaHarvestability-mc1.11-1.1.9-CN.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (squeek.wailaharvestability.ModWailaHarvestability) - loading
+[10:29:33] [Client thread/TRACE] [wailaharvestability/]: Parsed dependency info : [] [tconstruct] []
+[10:29:33] [Client thread/DEBUG] [FML/]: Examining file [物品管理器]jei_1.11.2-4.2.2.215.jar for potential mods
+[10:29:33] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [物品管理器]jei_1.11.2-4.2.2.215.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mezz.jei.JustEnoughItems) - loading
+[10:29:33] [Client thread/TRACE] [jei/]: Parsed dependency info : [forge@[13.19.0.2180,)] [forge@[13.19.0.2180,)] []
+[10:29:33] [Client thread/DEBUG] [FML/]: Examining file [耐久度显示]Durability Show-1.11.2-4.1.0-CN.jar for potential mods
+[10:29:33] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [耐久度显示]Durability Show-1.11.2-4.1.0-CN.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.sixonethree.durabilityshow.DurabilityShow) - loading
+[10:29:33] [Client thread/TRACE] [durabilityshow/]: Parsed dependency info : [] [baubles@[1.4.2,]] []
+[10:29:33] [Client thread/DEBUG] [FML/]: Examining file [自定义堆叠数量]stacksize-1.11.2-1.0.jar for potential mods
+[10:29:33] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [自定义堆叠数量]stacksize-1.11.2-1.0.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (stacksize.Stacksize) - loading
+[10:29:33] [Client thread/TRACE] [stacksize/]: Parsed dependency info : [] [] []
+[10:29:33] [Client thread/DEBUG] [FML/]: Examining file [血量及伤害显示]torohealth-1.11.2-8.jar for potential mods
+[10:29:33] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [血量及伤害显示]torohealth-1.11.2-8.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.torocraft.torohealthmod.ToroHealthMod) - loading
+[10:29:33] [Client thread/TRACE] [torohealthmod/]: Parsed dependency info : [] [] []
+[10:29:33] [Client thread/DEBUG] [FML/]: Examining file [额外信息显示]Hwyla-1.8.5-B19_1.11-CN.jar for potential mods
+[10:29:33] [Client thread/TRACE] [FML/]: Located mcmod.info file in file [额外信息显示]Hwyla-1.8.5-B19_1.11-CN.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mcp.mobius.waila.Waila) - loading
+[10:29:33] [Client thread/TRACE] [waila/]: Parsed dependency info : [] [] []
+[10:29:33] [Client thread/DEBUG] [FML/]: Examining file mcmap.cc-[失落的城市MOD][1.11.2].jar for potential mods
+[10:29:33] [Client thread/TRACE] [FML/]: Located mcmod.info file in file mcmap.cc-[失落的城市MOD][1.11.2].jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (mcjty.lostcities.LostCities) - loading
+[10:29:33] [Client thread/TRACE] [lostcities/]: Parsed dependency info : [compatlayer@[0.1.6,)] [compatlayer@[0.1.6,), Forge@[12.18.1.2082,), forge@[13.19.0.2176,)] []
+[10:29:33] [Client thread/DEBUG] [FML/]: Examining file mcmap.cc-[失落的城市前置MOD][1.11.2].jar for potential mods
+[10:29:33] [Client thread/TRACE] [FML/]: Located mcmod.info file in file mcmap.cc-[失落的城市前置MOD][1.11.2].jar
+[10:29:33] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 12 mods to load
+[10:29:33] [Client thread/DEBUG] [FML/]: Found API jeresources.api (owned by jeresources providing jeresources|API) embedded in jeresources
+[10:29:33] [Client thread/DEBUG] [FML/]: Found API mcp.mobius.waila.api (owned by Waila providing WailaAPI) embedded in waila
+[10:29:33] [Client thread/DEBUG] [FML/]: Found API mezz.jei.api (owned by jei providing JustEnoughItemsAPI) embedded in jei
+[10:29:33] [Client thread/DEBUG] [FML/]: Creating API container dummy for API compatlayer: owner: McJty, dependents: []
+[10:29:33] [Client thread/DEBUG] [FML/]: Creating API container dummy for API jeresources|API: owner: jeresources, dependents: []
+[10:29:33] [Client thread/DEBUG] [FML/]: Creating API container dummy for API JustEnoughItemsAPI: owner: jei, dependents: []
+[10:29:33] [Client thread/DEBUG] [FML/]: Creating API container dummy for API WailaAPI: owner: Waila, dependents: [waila]
+[10:29:33] [Client thread/TRACE] [FML/]: Received a system property request ''
+[10:29:33] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[10:29:33] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[10:29:33] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[10:29:33] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[10:29:33] [Client thread/DEBUG] [jeresources/]: Enabling mod jeresources
+[10:29:33] [Client thread/DEBUG] [wailaharvestability/]: Enabling mod wailaharvestability
+[10:29:33] [Client thread/DEBUG] [Waila Harvestability/]: Mod Waila Harvestability is missing a pack.mcmeta file, substituting a dummy one
+[10:29:33] [Client thread/DEBUG] [jei/]: Enabling mod jei
+[10:29:33] [Client thread/DEBUG] [durabilityshow/]: Enabling mod durabilityshow
+[10:29:33] [Client thread/DEBUG] [Durability Show/]: Mod Durability Show is missing a pack.mcmeta file, substituting a dummy one
+[10:29:33] [Client thread/DEBUG] [stacksize/]: Enabling mod stacksize
+[10:29:33] [Client thread/DEBUG] [Stacksize Mod/]: Mod Stacksize Mod is missing a pack.mcmeta file, substituting a dummy one
+[10:29:33] [Client thread/DEBUG] [torohealthmod/]: Enabling mod torohealthmod
+[10:29:33] [Client thread/DEBUG] [ToroHealth Damage Indicators/]: Mod ToroHealth Damage Indicators is missing a pack.mcmeta file, substituting a dummy one
+[10:29:33] [Client thread/DEBUG] [waila/]: Enabling mod waila
+[10:29:33] [Client thread/DEBUG] [Waila/]: Mod Waila is missing a pack.mcmeta file, substituting a dummy one
+[10:29:33] [Client thread/DEBUG] [lostcities/]: Enabling mod lostcities
+[10:29:33] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[10:29:33] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[10:29:33] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[10:29:33] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[10:29:33] [Client thread/DEBUG] [FML/]: Mod sorting data
+[10:29:33] [Client thread/DEBUG] [FML/]: 	jei(Just Enough Items:4.2.2.215): [物品管理器]jei_1.11.2-4.2.2.215.jar (required-after:forge@[13.19.0.2180,);)
+[10:29:33] [Client thread/DEBUG] [FML/]: 	jeresources(Just Enough Resources:0.6.2.101): [更详细的资源信息]JustEnoughResources-1.11.2-0.6.2.101-CN.jar (required-after:jei@[4.0.0,);)
+[10:29:33] [Client thread/DEBUG] [FML/]: 	wailaharvestability(Waila Harvestability:1.1.9): [更详细的采集信息]WailaHarvestability-mc1.11-1.1.9-CN.jar (after:tconstruct;)
+[10:29:33] [Client thread/DEBUG] [FML/]: 	durabilityshow(Durability Show:4.1.0): [耐久度显示]Durability Show-1.11.2-4.1.0-CN.jar (after:baubles@[1.4.2,])
+[10:29:33] [Client thread/DEBUG] [FML/]: 	stacksize(Stacksize Mod:1.0): [自定义堆叠数量]stacksize-1.11.2-1.0.jar ()
+[10:29:33] [Client thread/DEBUG] [FML/]: 	torohealthmod(ToroHealth Damage Indicators:1.11.2-8): [血量及伤害显示]torohealth-1.11.2-8.jar ()
+[10:29:33] [Client thread/DEBUG] [FML/]: 	WailaAPI(API: WailaAPI:1.3): [额外信息显示]Hwyla-1.8.5-B19_1.11-CN.jar ()
+[10:29:33] [Client thread/DEBUG] [FML/]: 	waila(Waila:1.8.5): [额外信息显示]Hwyla-1.8.5-B19_1.11-CN.jar ()
+[10:29:33] [Client thread/DEBUG] [FML/]: 	compatlayer(API: compatlayer:0.2.9): mcmap.cc-[失落的城市前置MOD][1.11.2].jar ()
+[10:29:33] [Client thread/DEBUG] [FML/]: 	lostcities(The Lost Cities:0.0.2beta): mcmap.cc-[失落的城市MOD][1.11.2].jar (required-after:compatlayer@[0.1.6,);after:Forge@[12.18.1.2082,);after:forge@[13.19.0.2176,))
+[10:29:33] [Client thread/DEBUG] [FML/]: 	jeresources|API(API: jeresources|API:0.6.2.101): [更详细的资源信息]JustEnoughResources-1.11.2-0.6.2.101-CN.jar ()
+[10:29:33] [Client thread/DEBUG] [FML/]: 	JustEnoughItemsAPI(API: JustEnoughItemsAPI:4.11.0): [物品管理器]jei_1.11.2-4.2.2.215.jar ()
+[10:29:33] [Client thread/INFO] [FML/]: FML has found a non-mod file mcmap.cc-[失落的城市前置MOD][1.11.2].jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[10:29:33] [Client thread/DEBUG] [FML/]: Loading @Config anotation data
+[10:29:33] [Client thread/TRACE] [minecraft/minecraft]: Sending event FMLConstructionEvent to mod minecraft
+[10:29:33] [Client thread/TRACE] [minecraft/minecraft]: Sent event FMLConstructionEvent to mod minecraft
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft took 0.001s
+[10:29:33] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[10:29:33] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.000s
+[10:29:33] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[10:29:33] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[10:29:33] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[10:29:33] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[10:29:33] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, jeresources, wailaharvestability, jei, durabilityshow, stacksize, torohealthmod, waila, lostcities] at CLIENT
+[10:29:33] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, jeresources, wailaharvestability, jei, durabilityshow, stacksize, torohealthmod, waila, lostcities] at SERVER
+[10:29:33] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.161s
+[10:29:33] [Client thread/TRACE] [forge/forge]: Sending event FMLConstructionEvent to mod forge
+[10:29:33] [Client thread/DEBUG] [forge/forge]: Preloading CrashReport Classes
+[10:29:33] [Client thread/DEBUG] [forge/forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[10:29:33] [Client thread/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[10:29:33] [Client thread/DEBUG] [forge/forge]: 	net/minecraftforge/fml/common/Loader$3
+[10:29:33] [Client thread/TRACE] [FML/forge]: Mod forge is using network checker : No network checking performed
+[10:29:33] [Client thread/TRACE] [FML/forge]: Testing mod forge to verify it accepts its own version in a remote connection
+[10:29:33] [Client thread/TRACE] [FML/forge]: The mod forge accepts its own version (13.20.0.2201)
+[10:29:33] [Client thread/DEBUG] [FML/forge]: Attempting to inject @Config classes into forge for type INSTANCE
+[10:29:33] [Client thread/TRACE] [forge/forge]: Sent event FMLConstructionEvent to mod forge
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.005s
+[10:29:33] [Client thread/TRACE] [jei/jei]: Sending event FMLConstructionEvent to mod jei
+[10:29:33] [Client thread/TRACE] [FML/jei]: Mod jei is using network checker : Invoking method checkModLists
+[10:29:33] [Client thread/TRACE] [FML/jei]: Testing mod jei to verify it accepts its own version in a remote connection
+[10:29:33] [Client thread/TRACE] [FML/jei]: The mod jei accepts its own version (4.2.2.215)
+[10:29:33] [Client thread/DEBUG] [FML/jei]: Attempting to inject @SidedProxy classes into jei
+[10:29:33] [Client thread/DEBUG] [FML/jei]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
+[10:29:33] [Client thread/DEBUG] [FML/jei]: Attempting to inject @Config classes into jei for type INSTANCE
+[10:29:33] [Client thread/TRACE] [jei/jei]: Sent event FMLConstructionEvent to mod jei
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Just Enough Items took 0.015s
+[10:29:33] [Client thread/TRACE] [jeresources/jeresources]: Sending event FMLConstructionEvent to mod jeresources
+[10:29:33] [Client thread/TRACE] [FML/jeresources]: Mod jeresources is using network checker : Accepting version 0.6.2.101
+[10:29:33] [Client thread/TRACE] [FML/jeresources]: Testing mod jeresources to verify it accepts its own version in a remote connection
+[10:29:33] [Client thread/TRACE] [FML/jeresources]: The mod jeresources accepts its own version (0.6.2.101)
+[10:29:33] [Client thread/DEBUG] [FML/jeresources]: Attempting to inject @SidedProxy classes into jeresources
+[10:29:33] [Client thread/DEBUG] [FML/jeresources]: Attempting to inject @EventBusSubscriber classes into the eventbus for jeresources
+[10:29:33] [Client thread/DEBUG] [FML/jeresources]: Attempting to inject @Config classes into jeresources for type INSTANCE
+[10:29:33] [Client thread/TRACE] [jeresources/jeresources]: Sent event FMLConstructionEvent to mod jeresources
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Just Enough Resources took 0.004s
+[10:29:33] [Client thread/TRACE] [wailaharvestability/wailaharvestability]: Sending event FMLConstructionEvent to mod wailaharvestability
+[10:29:33] [Client thread/TRACE] [FML/wailaharvestability]: Mod wailaharvestability is using network checker : Accepting version 1.1.9
+[10:29:33] [Client thread/TRACE] [FML/wailaharvestability]: Testing mod wailaharvestability to verify it accepts its own version in a remote connection
+[10:29:33] [Client thread/TRACE] [FML/wailaharvestability]: The mod wailaharvestability accepts its own version (1.1.9)
+[10:29:33] [Client thread/DEBUG] [FML/wailaharvestability]: Attempting to inject @SidedProxy classes into wailaharvestability
+[10:29:33] [Client thread/DEBUG] [FML/wailaharvestability]: Attempting to inject @EventBusSubscriber classes into the eventbus for wailaharvestability
+[10:29:33] [Client thread/DEBUG] [FML/wailaharvestability]: Attempting to inject @Config classes into wailaharvestability for type INSTANCE
+[10:29:33] [Client thread/TRACE] [wailaharvestability/wailaharvestability]: Sent event FMLConstructionEvent to mod wailaharvestability
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Waila Harvestability took 0.001s
+[10:29:33] [Client thread/TRACE] [durabilityshow/durabilityshow]: Sending event FMLConstructionEvent to mod durabilityshow
+[10:29:33] [Client thread/TRACE] [FML/durabilityshow]: Mod durabilityshow is using network checker : Accepting version 4.1.0
+[10:29:33] [Client thread/TRACE] [FML/durabilityshow]: Testing mod durabilityshow to verify it accepts its own version in a remote connection
+[10:29:33] [Client thread/TRACE] [FML/durabilityshow]: The mod durabilityshow accepts its own version (4.1.0)
+[10:29:33] [Client thread/DEBUG] [FML/durabilityshow]: Attempting to inject @SidedProxy classes into durabilityshow
+[10:29:33] [Client thread/DEBUG] [FML/durabilityshow]: Attempting to inject @EventBusSubscriber classes into the eventbus for durabilityshow
+[10:29:33] [Client thread/DEBUG] [FML/durabilityshow]: Attempting to inject @Config classes into durabilityshow for type INSTANCE
+[10:29:33] [Client thread/TRACE] [durabilityshow/durabilityshow]: Sent event FMLConstructionEvent to mod durabilityshow
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Durability Show took 0.003s
+[10:29:33] [Client thread/TRACE] [stacksize/stacksize]: Sending event FMLConstructionEvent to mod stacksize
+[10:29:33] [Client thread/TRACE] [FML/stacksize]: Mod stacksize is using network checker : Accepting version 1.0
+[10:29:33] [Client thread/TRACE] [FML/stacksize]: Testing mod stacksize to verify it accepts its own version in a remote connection
+[10:29:33] [Client thread/TRACE] [FML/stacksize]: The mod stacksize accepts its own version (1.0)
+[10:29:33] [Client thread/DEBUG] [FML/stacksize]: Attempting to inject @SidedProxy classes into stacksize
+[10:29:33] [Client thread/DEBUG] [FML/stacksize]: Attempting to inject @EventBusSubscriber classes into the eventbus for stacksize
+[10:29:33] [Client thread/DEBUG] [FML/stacksize]: Attempting to inject @Config classes into stacksize for type INSTANCE
+[10:29:33] [Client thread/TRACE] [stacksize/stacksize]: Sent event FMLConstructionEvent to mod stacksize
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Stacksize Mod took 0.002s
+[10:29:33] [Client thread/TRACE] [torohealthmod/torohealthmod]: Sending event FMLConstructionEvent to mod torohealthmod
+[10:29:33] [Client thread/TRACE] [FML/torohealthmod]: Mod torohealthmod is using network checker : Accepting version 1.11.2-8
+[10:29:33] [Client thread/TRACE] [FML/torohealthmod]: Testing mod torohealthmod to verify it accepts its own version in a remote connection
+[10:29:33] [Client thread/TRACE] [FML/torohealthmod]: The mod torohealthmod accepts its own version (1.11.2-8)
+[10:29:33] [Client thread/DEBUG] [FML/torohealthmod]: Attempting to inject @SidedProxy classes into torohealthmod
+[10:29:33] [Client thread/DEBUG] [FML/torohealthmod]: Attempting to inject @EventBusSubscriber classes into the eventbus for torohealthmod
+[10:29:33] [Client thread/DEBUG] [FML/torohealthmod]: Attempting to inject @Config classes into torohealthmod for type INSTANCE
+[10:29:33] [Client thread/TRACE] [torohealthmod/torohealthmod]: Sent event FMLConstructionEvent to mod torohealthmod
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Construction - ToroHealth Damage Indicators took 0.004s
+[10:29:33] [Client thread/TRACE] [waila/waila]: Sending event FMLConstructionEvent to mod waila
+[10:29:33] [Client thread/TRACE] [FML/waila]: Mod waila is using network checker : No network checking performed
+[10:29:33] [Client thread/TRACE] [FML/waila]: Testing mod waila to verify it accepts its own version in a remote connection
+[10:29:33] [Client thread/TRACE] [FML/waila]: The mod waila accepts its own version (1.8.5)
+[10:29:33] [Client thread/DEBUG] [FML/waila]: Attempting to inject @SidedProxy classes into waila
+[10:29:33] [Client thread/DEBUG] [FML/waila]: Attempting to inject @EventBusSubscriber classes into the eventbus for waila
+[10:29:33] [Client thread/DEBUG] [FML/waila]: Attempting to inject @Config classes into waila for type INSTANCE
+[10:29:33] [Client thread/TRACE] [waila/waila]: Sent event FMLConstructionEvent to mod waila
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Waila took 0.005s
+[10:29:33] [Client thread/TRACE] [lostcities/lostcities]: Sending event FMLConstructionEvent to mod lostcities
+[10:29:33] [Client thread/TRACE] [FML/lostcities]: Mod lostcities is using network checker : No network checking performed
+[10:29:33] [Client thread/TRACE] [FML/lostcities]: Testing mod lostcities to verify it accepts its own version in a remote connection
+[10:29:33] [Client thread/TRACE] [FML/lostcities]: The mod lostcities accepts its own version (0.0.2beta)
+[10:29:33] [Client thread/DEBUG] [FML/lostcities]: Attempting to inject @SidedProxy classes into lostcities
+[10:29:33] [Client thread/DEBUG] [FML/lostcities]: Attempting to inject @EventBusSubscriber classes into the eventbus for lostcities
+[10:29:33] [Client thread/DEBUG] [FML/lostcities]: Attempting to inject @Config classes into lostcities for type INSTANCE
+[10:29:33] [Client thread/TRACE] [lostcities/lostcities]: Sent event FMLConstructionEvent to mod lostcities
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Construction - The Lost Cities took 0.002s
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Finished: Construction took 0.204s
+[10:29:33] [Client thread/DEBUG] [FML/]: Mod signature data
+[10:29:33] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[10:29:33] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[10:29:33] [Client thread/DEBUG] [FML/]: 		minecraft	(Minecraft	1.11.2)	minecraft.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.19)	minecraft.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	8.0.99.99)	forge-1.11.2-13.20.0.2201.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: 		forge	(Minecraft Forge	13.20.0.2201)	forge-1.11.2-13.20.0.2201.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: 		jei	(Just Enough Items	4.2.2.215)	[物品管理器]jei_1.11.2-4.2.2.215.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: 		jeresources	(Just Enough Resources	0.6.2.101)	[更详细的资源信息]JustEnoughResources-1.11.2-0.6.2.101-CN.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: 		wailaharvestability	(Waila Harvestability	1.1.9)	[更详细的采集信息]WailaHarvestability-mc1.11-1.1.9-CN.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: 		durabilityshow	(Durability Show	4.1.0)	[耐久度显示]Durability Show-1.11.2-4.1.0-CN.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: 		stacksize	(Stacksize Mod	1.0)	[自定义堆叠数量]stacksize-1.11.2-1.0.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: 		torohealthmod	(ToroHealth Damage Indicators	1.11.2-8)	[血量及伤害显示]torohealth-1.11.2-8.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: 		waila	(Waila	1.8.5)	[额外信息显示]Hwyla-1.8.5-B19_1.11-CN.jar
+[10:29:33] [Client thread/DEBUG] [FML/]: 		lostcities	(The Lost Cities	0.0.2beta)	mcmap.cc-[失落的城市MOD][1.11.2].jar
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.001s
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.001s
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.001s
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Just Enough Resources took 0.000s
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Waila Harvestability took 0.000s
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Just Enough Items took 0.000s
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Durability Show took 0.000s
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Stacksize Mod took 0.000s
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:ToroHealth Damage Indicators took 0.000s
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Waila took 0.000s
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:The Lost Cities took 0.000s
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - []sensecraft-10751651-MC1.11.zip took 0.001s
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0.017s
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.017s
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.023s
+[10:29:33] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[10:29:33] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[10:29:33] [Client thread/DEBUG] [Waila Harvestability/]: Mod Waila Harvestability is missing a pack.mcmeta file, substituting a dummy one
+[10:29:33] [Client thread/DEBUG] [Durability Show/]: Mod Durability Show is missing a pack.mcmeta file, substituting a dummy one
+[10:29:33] [Client thread/DEBUG] [Stacksize Mod/]: Mod Stacksize Mod is missing a pack.mcmeta file, substituting a dummy one
+[10:29:33] [Client thread/DEBUG] [ToroHealth Damage Indicators/]: Mod ToroHealth Damage Indicators is missing a pack.mcmeta file, substituting a dummy one
+[10:29:33] [Client thread/DEBUG] [Waila/]: Mod Waila is missing a pack.mcmeta file, substituting a dummy one
+[10:29:33] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[10:29:33] [Client thread/INFO] [FML/]: Found 444 ObjectHolder annotations
+[10:29:33] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[10:29:33] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[10:29:33] [Client thread/INFO] [FML/]: Applying holder lookups
+[10:29:33] [Client thread/INFO] [FML/]: Holder lookups applied
+[10:29:33] [Client thread/INFO] [FML/]: Applying holder lookups
+[10:29:33] [Client thread/INFO] [FML/]: Holder lookups applied
+[10:29:33] [Client thread/INFO] [FML/]: Applying holder lookups
+[10:29:33] [Client thread/INFO] [FML/]: Holder lookups applied
+[10:29:33] [Client thread/TRACE] [minecraft/minecraft]: Sending event FMLPreInitializationEvent to mod minecraft
+[10:29:33] [Client thread/TRACE] [minecraft/minecraft]: Sent event FMLPreInitializationEvent to mod minecraft
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft took 0.000s
+[10:29:33] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[10:29:33] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
+[10:29:33] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[10:29:33] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[10:29:33] [Client thread/TRACE] [forge/forge]: Sending event FMLPreInitializationEvent to mod forge
+[10:29:33] [Client thread/INFO] [FML/forge]: Configured a dormant chunk cache size of 0
+[10:29:33] [Client thread/TRACE] [forge/forge]: Sent event FMLPreInitializationEvent to mod forge
+[10:29:33] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.020s
+[10:29:33] [Client thread/TRACE] [jei/jei]: Sending event FMLPreInitializationEvent to mod jei
+[10:29:33] [Forge Version Check/INFO] [ForgeVersionCheck/forge]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[10:29:34] [Client thread/TRACE] [jei/jei]: Sent event FMLPreInitializationEvent to mod jei
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Just Enough Items took 0.029s
+[10:29:34] [Client thread/TRACE] [jeresources/jeresources]: Sending event FMLPreInitializationEvent to mod jeresources
+[10:29:34] [Client thread/INFO] [jeresources/jeresources]: Loading configs..
+[10:29:34] [Client thread/INFO] [jeresources/jeresources]: Updating ModMetaData...
+[10:29:34] [Client thread/INFO] [jeresources/jeresources]: Providing API...
+[10:29:34] [Client thread/TRACE] [jeresources/jeresources]: Sent event FMLPreInitializationEvent to mod jeresources
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Just Enough Resources took 0.012s
+[10:29:34] [Client thread/TRACE] [wailaharvestability/wailaharvestability]: Sending event FMLPreInitializationEvent to mod wailaharvestability
+[10:29:34] [Client thread/TRACE] [wailaharvestability/wailaharvestability]: Sent event FMLPreInitializationEvent to mod wailaharvestability
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Waila Harvestability took 0.001s
+[10:29:34] [Client thread/TRACE] [durabilityshow/durabilityshow]: Sending event FMLPreInitializationEvent to mod durabilityshow
+[10:29:34] [Client thread/INFO] [durabilityshow/durabilityshow]: Pre-Init Complete
+[10:29:34] [Client thread/TRACE] [durabilityshow/durabilityshow]: Sent event FMLPreInitializationEvent to mod durabilityshow
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Durability Show took 0.006s
+[10:29:34] [Client thread/TRACE] [stacksize/stacksize]: Sending event FMLPreInitializationEvent to mod stacksize
+[10:29:34] [Client thread/TRACE] [stacksize/stacksize]: Sent event FMLPreInitializationEvent to mod stacksize
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Stacksize Mod took 0.001s
+[10:29:34] [Client thread/TRACE] [torohealthmod/torohealthmod]: Sending event FMLPreInitializationEvent to mod torohealthmod
+[10:29:34] [Client thread/TRACE] [torohealthmod/torohealthmod]: Sent event FMLPreInitializationEvent to mod torohealthmod
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - ToroHealth Damage Indicators took 0.003s
+[10:29:34] [Client thread/TRACE] [waila/waila]: Sending event FMLPreInitializationEvent to mod waila
+[10:29:34] [Client thread/TRACE] [waila/waila]: Sent event FMLPreInitializationEvent to mod waila
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Waila took 0.022s
+[10:29:34] [Client thread/TRACE] [lostcities/lostcities]: Sending event FMLPreInitializationEvent to mod lostcities
+[10:29:34] [Client thread/TRACE] [lostcities/lostcities]: Sent event FMLPreInitializationEvent to mod lostcities
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - The Lost Cities took 0.012s
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.108s
+[10:29:34] [Client thread/INFO] [FML/]: Applying holder lookups
+[10:29:34] [Client thread/INFO] [FML/]: Holder lookups applied
+[10:29:34] [Client thread/INFO] [FML/]: Injecting itemstacks
+[10:29:34] [Client thread/INFO] [FML/]: Itemstack injection complete
+[10:29:34] [Client thread/INFO] [Config/]: [OptiFine] *** Reloading textures ***
+[10:29:34] [Client thread/INFO] [Config/]: [OptiFine] Resource packs: [原版默认重制材质包]sensecraft-10751651-MC1.11.zip
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0.000s
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 0.309s
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.002s
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0.002s
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0.003s
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0.003s
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - GL Setup took 0.001s
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Texture Map took 0.001s
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - B3DLoader took 0.000s
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - OBJLoader took 0.000s
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelFluid$FluidLoader took 0.000s
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ItemLayerModel$Loader took 0.000s
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - MultiLayerModel$Loader took 0.000s
+[10:29:34] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelDynBucket$LoaderDynBucket took 0.000s
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 0.713s
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 0.305s
+[10:29:35] [Client thread/INFO] [Config/]: [OptiFine] Mipmap levels: 4
+[10:29:35] [Client thread/INFO] [Config/]: [OptiFine] Multitexture: false
+[10:29:35] [Client thread/INFO] [Config/]: [OptiFine] Multipass connected textures: false
+[10:29:35] [Client thread/INFO] [Config/]: [OptiFine] Multipass connected textures: false
+[10:29:35] [Client thread/INFO] [Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 0.230s
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelManager took 1.355s
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Model Manager took 1.363s
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderItem took 0.001s
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Item Renderer took 0.057s
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0.000s
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - BlockRendererDispatcher took 0.000s
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderGlobal took 0.000s
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0.062s
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Finished: Rendering Setup took 1.483s
+[10:29:35] [Client thread/TRACE] [minecraft/minecraft]: Sending event FMLInitializationEvent to mod minecraft
+[10:29:35] [Client thread/TRACE] [minecraft/minecraft]: Sent event FMLInitializationEvent to mod minecraft
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft took 0.000s
+[10:29:35] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[10:29:35] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[10:29:35] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[10:29:35] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[10:29:35] [Client thread/TRACE] [forge/forge]: Sending event FMLInitializationEvent to mod forge
+[10:29:35] [Client thread/TRACE] [forge/forge]: Sent event FMLInitializationEvent to mod forge
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[10:29:35] [Client thread/TRACE] [jei/jei]: Sending event FMLInitializationEvent to mod jei
+[10:29:35] [Client thread/TRACE] [jei/jei]: Sent event FMLInitializationEvent to mod jei
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Just Enough Items took 0.003s
+[10:29:35] [Client thread/TRACE] [jeresources/jeresources]: Sending event FMLInitializationEvent to mod jeresources
+[10:29:35] [Client thread/TRACE] [jeresources/jeresources]: Sent event FMLInitializationEvent to mod jeresources
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Just Enough Resources took 0.000s
+[10:29:35] [Client thread/TRACE] [wailaharvestability/wailaharvestability]: Sending event FMLInitializationEvent to mod wailaharvestability
+[10:29:35] [Client thread/TRACE] [wailaharvestability/wailaharvestability]: Sent event FMLInitializationEvent to mod wailaharvestability
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Waila Harvestability took 0.001s
+[10:29:35] [Client thread/TRACE] [durabilityshow/durabilityshow]: Sending event FMLInitializationEvent to mod durabilityshow
+[10:29:35] [Client thread/INFO] [durabilityshow/durabilityshow]: Init Complete
+[10:29:35] [Client thread/TRACE] [durabilityshow/durabilityshow]: Sent event FMLInitializationEvent to mod durabilityshow
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Durability Show took 0.003s
+[10:29:35] [Client thread/TRACE] [stacksize/stacksize]: Sending event FMLInitializationEvent to mod stacksize
+[10:29:35] [Client thread/TRACE] [stacksize/stacksize]: Sent event FMLInitializationEvent to mod stacksize
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Stacksize Mod took 0.002s
+[10:29:35] [Client thread/TRACE] [torohealthmod/torohealthmod]: Sending event FMLInitializationEvent to mod torohealthmod
+[10:29:35] [Client thread/TRACE] [torohealthmod/torohealthmod]: Sent event FMLInitializationEvent to mod torohealthmod
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - ToroHealth Damage Indicators took 0.000s
+[10:29:35] [Client thread/TRACE] [waila/waila]: Sending event FMLInitializationEvent to mod waila
+[10:29:35] [Client thread/TRACE] [waila/waila]: Sent event FMLInitializationEvent to mod waila
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Waila took 0.009s
+[10:29:35] [Client thread/TRACE] [lostcities/lostcities]: Sending event FMLInitializationEvent to mod lostcities
+[10:29:35] [Client thread/TRACE] [lostcities/lostcities]: Sent event FMLInitializationEvent to mod lostcities
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - The Lost Cities took 0.001s
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Finished: Initialization took 0.018s
+[10:29:35] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod minecraft
+[10:29:35] [Client thread/TRACE] [minecraft/minecraft]: Sending event IMCEvent to mod minecraft
+[10:29:35] [Client thread/TRACE] [minecraft/minecraft]: Sent event IMCEvent to mod minecraft
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft took 0.000s
+[10:29:35] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[10:29:35] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[10:29:35] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.000s
+[10:29:35] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[10:29:35] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[10:29:35] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[10:29:35] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod forge
+[10:29:35] [Client thread/TRACE] [forge/forge]: Sending event IMCEvent to mod forge
+[10:29:35] [Client thread/TRACE] [forge/forge]: Sent event IMCEvent to mod forge
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[10:29:35] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod jei
+[10:29:35] [Client thread/TRACE] [jei/jei]: Sending event IMCEvent to mod jei
+[10:29:35] [Client thread/TRACE] [jei/jei]: Sent event IMCEvent to mod jei
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Just Enough Items took 0.000s
+[10:29:35] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod jeresources
+[10:29:35] [Client thread/TRACE] [jeresources/jeresources]: Sending event IMCEvent to mod jeresources
+[10:29:35] [Client thread/TRACE] [jeresources/jeresources]: Sent event IMCEvent to mod jeresources
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Just Enough Resources took 0.000s
+[10:29:35] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod wailaharvestability
+[10:29:35] [Client thread/TRACE] [wailaharvestability/wailaharvestability]: Sending event IMCEvent to mod wailaharvestability
+[10:29:35] [Client thread/TRACE] [wailaharvestability/wailaharvestability]: Sent event IMCEvent to mod wailaharvestability
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Waila Harvestability took 0.000s
+[10:29:35] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod durabilityshow
+[10:29:35] [Client thread/TRACE] [durabilityshow/durabilityshow]: Sending event IMCEvent to mod durabilityshow
+[10:29:35] [Client thread/TRACE] [durabilityshow/durabilityshow]: Sent event IMCEvent to mod durabilityshow
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Durability Show took 0.000s
+[10:29:35] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod stacksize
+[10:29:35] [Client thread/TRACE] [stacksize/stacksize]: Sending event IMCEvent to mod stacksize
+[10:29:35] [Client thread/TRACE] [stacksize/stacksize]: Sent event IMCEvent to mod stacksize
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Stacksize Mod took 0.000s
+[10:29:35] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod torohealthmod
+[10:29:35] [Client thread/TRACE] [torohealthmod/torohealthmod]: Sending event IMCEvent to mod torohealthmod
+[10:29:35] [Client thread/TRACE] [torohealthmod/torohealthmod]: Sent event IMCEvent to mod torohealthmod
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - ToroHealth Damage Indicators took 0.000s
+[10:29:35] [Client thread/TRACE] [FML/]: Attempting to deliver 1 IMC messages to mod waila
+[10:29:35] [Client thread/TRACE] [waila/waila]: Sending event IMCEvent to mod waila
+[10:29:35] [Client thread/INFO] [Waila/waila]: Receiving registration request from [ wailaharvestability ] for method squeek.wailaharvestability.WailaHandler.callbackRegister
+[10:29:35] [Client thread/TRACE] [waila/waila]: Sent event IMCEvent to mod waila
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Waila took 0.002s
+[10:29:35] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod lostcities
+[10:29:35] [Client thread/TRACE] [lostcities/lostcities]: Sending event IMCEvent to mod lostcities
+[10:29:35] [Client thread/TRACE] [lostcities/lostcities]: Sent event IMCEvent to mod lostcities
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - The Lost Cities took 0.000s
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.003s
+[10:29:35] [Client thread/INFO] [FML/]: Injecting itemstacks
+[10:29:35] [Client thread/INFO] [FML/]: Itemstack injection complete
+[10:29:35] [Client thread/TRACE] [minecraft/minecraft]: Sending event FMLPostInitializationEvent to mod minecraft
+[10:29:35] [Client thread/TRACE] [minecraft/minecraft]: Sent event FMLPostInitializationEvent to mod minecraft
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft took 0.000s
+[10:29:35] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[10:29:35] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[10:29:35] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[10:29:35] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[10:29:35] [Client thread/TRACE] [forge/forge]: Sending event FMLPostInitializationEvent to mod forge
+[10:29:35] [Client thread/TRACE] [forge/forge]: Sent event FMLPostInitializationEvent to mod forge
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.004s
+[10:29:35] [Client thread/TRACE] [jei/jei]: Sending event FMLPostInitializationEvent to mod jei
+[10:29:35] [Client thread/TRACE] [jei/jei]: Sent event FMLPostInitializationEvent to mod jei
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Just Enough Items took 0.000s
+[10:29:35] [Client thread/TRACE] [jeresources/jeresources]: Sending event FMLPostInitializationEvent to mod jeresources
+[10:29:35] [Client thread/TRACE] [jeresources/jeresources]: Sent event FMLPostInitializationEvent to mod jeresources
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Just Enough Resources took 0.000s
+[10:29:35] [Client thread/TRACE] [wailaharvestability/wailaharvestability]: Sending event FMLPostInitializationEvent to mod wailaharvestability
+[10:29:35] [Client thread/TRACE] [wailaharvestability/wailaharvestability]: Sent event FMLPostInitializationEvent to mod wailaharvestability
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Waila Harvestability took 0.001s
+[10:29:35] [Client thread/TRACE] [durabilityshow/durabilityshow]: Sending event FMLPostInitializationEvent to mod durabilityshow
+[10:29:35] [Client thread/INFO] [durabilityshow/durabilityshow]: Post-Init Complete
+[10:29:35] [Client thread/TRACE] [durabilityshow/durabilityshow]: Sent event FMLPostInitializationEvent to mod durabilityshow
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Durability Show took 0.000s
+[10:29:35] [Client thread/TRACE] [stacksize/stacksize]: Sending event FMLPostInitializationEvent to mod stacksize
+[10:29:35] [Client thread/TRACE] [stacksize/stacksize]: Sent event FMLPostInitializationEvent to mod stacksize
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Stacksize Mod took 0.000s
+[10:29:35] [Client thread/TRACE] [torohealthmod/torohealthmod]: Sending event FMLPostInitializationEvent to mod torohealthmod
+[10:29:35] [Client thread/TRACE] [torohealthmod/torohealthmod]: Sent event FMLPostInitializationEvent to mod torohealthmod
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - ToroHealth Damage Indicators took 0.001s
+[10:29:35] [Client thread/TRACE] [waila/waila]: Sending event FMLPostInitializationEvent to mod waila
+[10:29:35] [Client thread/TRACE] [waila/waila]: Sent event FMLPostInitializationEvent to mod waila
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Waila took 0.002s
+[10:29:35] [Client thread/TRACE] [lostcities/lostcities]: Sending event FMLPostInitializationEvent to mod lostcities
+[10:29:35] [Client thread/TRACE] [lostcities/lostcities]: Sent event FMLPostInitializationEvent to mod lostcities
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - The Lost Cities took 0.000s
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.009s
+[10:29:35] [Client thread/TRACE] [minecraft/minecraft]: Sending event FMLLoadCompleteEvent to mod minecraft
+[10:29:35] [Client thread/TRACE] [minecraft/minecraft]: Sent event FMLLoadCompleteEvent to mod minecraft
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft took 0.000s
+[10:29:35] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[10:29:35] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[10:29:35] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[10:29:35] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
+[10:29:35] [Client thread/TRACE] [forge/forge]: Sending event FMLLoadCompleteEvent to mod forge
+[10:29:35] [Client thread/DEBUG] [FML/forge]: Forge RecipeSorter Baking:
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   16: RecipeEntry("Before", UNKNOWN, )
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[10:29:35] [Client thread/DEBUG] [FML/forge]:   1: RecipeEntry("After", UNKNOWN, )
+[10:29:35] [Client thread/DEBUG] [FML/forge]: Sorting recipes
+[10:29:35] [Client thread/TRACE] [forge/forge]: Sent event FMLLoadCompleteEvent to mod forge
+[10:29:35] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.003s
+[10:29:35] [Client thread/TRACE] [jei/jei]: Sending event FMLLoadCompleteEvent to mod jei
+[10:29:35] [Client thread/DEBUG] [FML/jei]: Bar Finished: Loading Resource - ProxyCommonClient$1 took 0.000s
+[10:29:35] [Client thread/INFO] [jei/jei]: Starting JEI...
+[10:29:35] [Client thread/DEBUG] [FML/jei]: Bar Finished: Registering item subtypes took 0.001s
+[10:29:35] [Client thread/DEBUG] [FML/jei]: Bar Finished: Registering ingredients took 0.013s
+[10:29:35] [Client thread/INFO] [jei/jei]: Registering plugin: mezz.jei.plugins.vanilla.VanillaPlugin ...
+[10:29:36] [Client thread/INFO] [jei/jei]: Registered  plugin: mezz.jei.plugins.vanilla.VanillaPlugin in 34 ms
+[10:29:36] [Client thread/INFO] [jei/jei]: Registering plugin: jeresources.jei.JEIConfig ...
+[10:29:36] [Client thread/INFO] [jei/jei]: Registered  plugin: jeresources.jei.JEIConfig in 156 ms
+[10:29:36] [Client thread/INFO] [jei/jei]: Registering plugin: mcp.mobius.waila.handlers.JEIHandler ...
+[10:29:36] [Client thread/INFO] [jei/jei]: Registered  plugin: mcp.mobius.waila.handlers.JEIHandler in 0 ms
+[10:29:36] [Client thread/INFO] [jei/jei]: Registering plugin: mezz.jei.plugins.jei.JEIInternalPlugin ...
+[10:29:36] [Client thread/INFO] [jei/jei]: Registered  plugin: mezz.jei.plugins.jei.JEIInternalPlugin in 1 ms
+[10:29:36] [Client thread/DEBUG] [FML/jei]: Bar Finished: Registering plugins took 0.192s
+[10:29:36] [Client thread/INFO] [jei/jei]: Building recipe registry...
+[10:29:36] [Client thread/DEBUG] [FML/jei]: Bar Finished: Adding recipes took 0.026s
+[10:29:36] [Client thread/INFO] [jei/jei]: Built    recipe registry in 34 ms
+[10:29:36] [Client thread/INFO] [jei/jei]: Building item filter...
+[10:29:36] [Client thread/INFO] [jei/jei]: Built	item filter in 41 ms
+[10:29:36] [Client thread/INFO] [jei/jei]: Building runtime...
+[10:29:36] [Client thread/INFO] [jei/jei]: Built    runtime in 11 ms
+[10:29:36] [Client thread/INFO] [jei/jei]: Sending runtime to plugin: mezz.jei.plugins.vanilla.VanillaPlugin ...
+[10:29:36] [Client thread/INFO] [jei/jei]: Sending runtime to plugin: jeresources.jei.JEIConfig ...
+[10:29:36] [Client thread/INFO] [jei/jei]: Sending runtime to plugin: mcp.mobius.waila.handlers.JEIHandler ...
+[10:29:36] [Client thread/INFO] [jei/jei]: Sending runtime to plugin: mezz.jei.plugins.jei.JEIInternalPlugin ...
+[10:29:36] [Client thread/DEBUG] [FML/jei]: Bar Finished: Sending Runtime took 0.000s
+[10:29:36] [Client thread/INFO] [jei/jei]: Finished Starting JEI in 354 ms
+[10:29:36] [Client thread/TRACE] [jei/jei]: Sent event FMLLoadCompleteEvent to mod jei
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Just Enough Items took 0.354s
+[10:29:36] [Client thread/TRACE] [jeresources/jeresources]: Sending event FMLLoadCompleteEvent to mod jeresources
+[10:29:36] [Client thread/TRACE] [jeresources/jeresources]: Sent event FMLLoadCompleteEvent to mod jeresources
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Just Enough Resources took 0.000s
+[10:29:36] [Client thread/TRACE] [wailaharvestability/wailaharvestability]: Sending event FMLLoadCompleteEvent to mod wailaharvestability
+[10:29:36] [Client thread/TRACE] [wailaharvestability/wailaharvestability]: Sent event FMLLoadCompleteEvent to mod wailaharvestability
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Waila Harvestability took 0.000s
+[10:29:36] [Client thread/TRACE] [durabilityshow/durabilityshow]: Sending event FMLLoadCompleteEvent to mod durabilityshow
+[10:29:36] [Client thread/TRACE] [durabilityshow/durabilityshow]: Sent event FMLLoadCompleteEvent to mod durabilityshow
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Durability Show took 0.000s
+[10:29:36] [Client thread/TRACE] [stacksize/stacksize]: Sending event FMLLoadCompleteEvent to mod stacksize
+[10:29:36] [Client thread/TRACE] [stacksize/stacksize]: Sent event FMLLoadCompleteEvent to mod stacksize
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Stacksize Mod took 0.000s
+[10:29:36] [Client thread/TRACE] [torohealthmod/torohealthmod]: Sending event FMLLoadCompleteEvent to mod torohealthmod
+[10:29:36] [Client thread/TRACE] [torohealthmod/torohealthmod]: Sent event FMLLoadCompleteEvent to mod torohealthmod
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - ToroHealth Damage Indicators took 0.000s
+[10:29:36] [Client thread/TRACE] [waila/waila]: Sending event FMLLoadCompleteEvent to mod waila
+[10:29:36] [Client thread/INFO] [Waila/waila]: Attempting to register plugin for anything from mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[10:29:36] [Client thread/INFO] [Waila/waila]: Registered plugin for anything from mcp.mobius.waila.addons.minecraft.PluginMinecraft in 7.833 ms
+[10:29:36] [Client thread/INFO] [Waila/waila]: Attempting to register plugin for anything from mcp.mobius.waila.addons.capability.PluginCapability
+[10:29:36] [Client thread/INFO] [Waila/waila]: Registered plugin for anything from mcp.mobius.waila.addons.capability.PluginCapability in 3.242 ms
+[10:29:36] [Client thread/INFO] [Waila/waila]: Trying to reflect squeek.wailaharvestability.WailaHandler callbackRegister
+[10:29:36] [Client thread/INFO] [Waila/waila]: Success in registering wailaharvestability
+[10:29:36] [Client thread/TRACE] [waila/waila]: Sent event FMLLoadCompleteEvent to mod waila
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Waila took 0.025s
+[10:29:36] [Client thread/TRACE] [lostcities/lostcities]: Sending event FMLLoadCompleteEvent to mod lostcities
+[10:29:36] [Client thread/TRACE] [lostcities/lostcities]: Sent event FMLLoadCompleteEvent to mod lostcities
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - The Lost Cities took 0.003s
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.387s
+[10:29:36] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
+[10:29:36] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 12 mods
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.000s
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.001s
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.001s
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Just Enough Resources took 0.000s
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Waila Harvestability took 0.000s
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Just Enough Items took 0.000s
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Durability Show took 0.000s
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Stacksize Mod took 0.000s
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:ToroHealth Damage Indicators took 0.000s
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Waila took 0.000s
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:The Lost Cities took 0.000s
+[10:29:36] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - []sensecraft-10751651-MC1.11.zip took 0.001s
+[10:29:36] [Client thread/INFO] [Config/]: [OptiFine] *** Reloading textures ***
+[10:29:36] [Client thread/INFO] [Config/]: [OptiFine] Resource packs: [原版默认重制材质包]sensecraft-10751651-MC1.11.zip
+[10:29:37] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 0.557s
+[10:29:37] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 0.304s
+[10:29:37] [Client thread/INFO] [Config/]: [OptiFine] Mipmap levels: 4
+[10:29:37] [Client thread/INFO] [Config/]: [OptiFine] Multitexture: false
+[10:29:37] [Client thread/INFO] [Config/]: [OptiFine] Multipass connected textures: false
+[10:29:37] [Client thread/INFO] [Config/]: [OptiFine] Multipass connected textures: false
+[10:29:37] [Client thread/INFO] [Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[10:29:37] [Client thread/INFO] [Config/]: [OptiFine] Custom loader: TextureAtlasSprite{name='minecraft:white', frameCount=1, rotated=false, x=0, y=0, height=16, width=16, u0=6.25E-4, u1=0.999375, v0=6.25E-4, v1=0.999375}
+[10:29:38] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 0.181s
+[10:29:38] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 1.738s
+[10:29:38] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 1.738s
+[10:29:38] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 1.741s
+[10:29:38] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[10:29:38] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[10:29:38] [Client thread/DEBUG] [Waila Harvestability/]: Mod Waila Harvestability is missing a pack.mcmeta file, substituting a dummy one
+[10:29:38] [Client thread/DEBUG] [Durability Show/]: Mod Durability Show is missing a pack.mcmeta file, substituting a dummy one
+[10:29:38] [Client thread/DEBUG] [Stacksize Mod/]: Mod Stacksize Mod is missing a pack.mcmeta file, substituting a dummy one
+[10:29:38] [Client thread/DEBUG] [ToroHealth Damage Indicators/]: Mod ToroHealth Damage Indicators is missing a pack.mcmeta file, substituting a dummy one
+[10:29:38] [Client thread/DEBUG] [Waila/]: Mod Waila is missing a pack.mcmeta file, substituting a dummy one
+[10:29:38] [Client thread/DEBUG] [FML/]: Bar Finished: Loading took 4.802s
+[10:29:38] [Client thread/INFO] [Config/]: [OptiFine] *** Reloading custom textures ***
+[10:29:38] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureUtils$1 took 0.083s
+[10:29:38] [Forge Version Check/DEBUG] [ForgeVersionCheck/forge]: [forge] Received version check data:
+Moved Permanently
+[10:29:38] [Forge Version Check/DEBUG] [ForgeVersionCheck/forge]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.Gson.fromJson(Gson.java:815) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:768) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:717) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:689) ~[Gson.class:?]
+	at net.minecraftforge.common.ForgeVersion$1.process(ForgeVersion.java:218) [ForgeVersion$1.class:?]
+	at net.minecraftforge.common.ForgeVersion$1.run(ForgeVersion.java:193) [ForgeVersion$1.class:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374) ~[JsonReader.class:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[MapTypeAdapterFactory$Adapter.class:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[MapTypeAdapterFactory$Adapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:803) ~[Gson.class:?]
+	... 5 more
+[10:29:57] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerAboutToStartEvent to mod minecraft
+[10:29:57] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerAboutToStartEvent to mod minecraft
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft took 0.000s
+[10:29:57] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[10:29:57] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.000s
+[10:29:57] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[10:29:57] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
+[10:29:57] [Server thread/TRACE] [forge/forge]: Sending event FMLServerAboutToStartEvent to mod forge
+[10:29:57] [Server thread/TRACE] [forge/forge]: Sent event FMLServerAboutToStartEvent to mod forge
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
+[10:29:57] [Server thread/TRACE] [jei/jei]: Sending event FMLServerAboutToStartEvent to mod jei
+[10:29:57] [Server thread/TRACE] [jei/jei]: Sent event FMLServerAboutToStartEvent to mod jei
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Just Enough Items took 0.000s
+[10:29:57] [Server thread/TRACE] [jeresources/jeresources]: Sending event FMLServerAboutToStartEvent to mod jeresources
+[10:29:57] [Server thread/TRACE] [jeresources/jeresources]: Sent event FMLServerAboutToStartEvent to mod jeresources
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Just Enough Resources took 0.000s
+[10:29:57] [Server thread/TRACE] [wailaharvestability/wailaharvestability]: Sending event FMLServerAboutToStartEvent to mod wailaharvestability
+[10:29:57] [Server thread/TRACE] [wailaharvestability/wailaharvestability]: Sent event FMLServerAboutToStartEvent to mod wailaharvestability
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Waila Harvestability took 0.000s
+[10:29:57] [Server thread/TRACE] [durabilityshow/durabilityshow]: Sending event FMLServerAboutToStartEvent to mod durabilityshow
+[10:29:57] [Server thread/TRACE] [durabilityshow/durabilityshow]: Sent event FMLServerAboutToStartEvent to mod durabilityshow
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Durability Show took 0.000s
+[10:29:57] [Server thread/TRACE] [stacksize/stacksize]: Sending event FMLServerAboutToStartEvent to mod stacksize
+[10:29:57] [Server thread/TRACE] [stacksize/stacksize]: Sent event FMLServerAboutToStartEvent to mod stacksize
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Stacksize Mod took 0.000s
+[10:29:57] [Server thread/TRACE] [torohealthmod/torohealthmod]: Sending event FMLServerAboutToStartEvent to mod torohealthmod
+[10:29:57] [Server thread/TRACE] [torohealthmod/torohealthmod]: Sent event FMLServerAboutToStartEvent to mod torohealthmod
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - ToroHealth Damage Indicators took 0.000s
+[10:29:57] [Server thread/TRACE] [waila/waila]: Sending event FMLServerAboutToStartEvent to mod waila
+[10:29:57] [Server thread/TRACE] [waila/waila]: Sent event FMLServerAboutToStartEvent to mod waila
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Waila took 0.000s
+[10:29:57] [Server thread/TRACE] [lostcities/lostcities]: Sending event FMLServerAboutToStartEvent to mod lostcities
+[10:29:57] [Server thread/TRACE] [lostcities/lostcities]: Sent event FMLServerAboutToStartEvent to mod lostcities
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - The Lost Cities took 0.000s
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.001s
+[10:29:57] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[10:29:57] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLModIdMappingEvent to mod minecraft
+[10:29:57] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLModIdMappingEvent to mod minecraft
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft took 0.000s
+[10:29:57] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[10:29:57] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[10:29:57] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[10:29:57] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[10:29:57] [Server thread/TRACE] [forge/forge]: Sending event FMLModIdMappingEvent to mod forge
+[10:29:57] [Server thread/TRACE] [forge/forge]: Sent event FMLModIdMappingEvent to mod forge
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.008s
+[10:29:57] [Server thread/TRACE] [jei/jei]: Sending event FMLModIdMappingEvent to mod jei
+[10:29:57] [Server thread/TRACE] [jei/jei]: Sent event FMLModIdMappingEvent to mod jei
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Just Enough Items took 0.000s
+[10:29:57] [Server thread/TRACE] [jeresources/jeresources]: Sending event FMLModIdMappingEvent to mod jeresources
+[10:29:57] [Server thread/TRACE] [jeresources/jeresources]: Sent event FMLModIdMappingEvent to mod jeresources
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Just Enough Resources took 0.000s
+[10:29:57] [Server thread/TRACE] [wailaharvestability/wailaharvestability]: Sending event FMLModIdMappingEvent to mod wailaharvestability
+[10:29:57] [Server thread/TRACE] [wailaharvestability/wailaharvestability]: Sent event FMLModIdMappingEvent to mod wailaharvestability
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Waila Harvestability took 0.000s
+[10:29:57] [Server thread/TRACE] [durabilityshow/durabilityshow]: Sending event FMLModIdMappingEvent to mod durabilityshow
+[10:29:57] [Server thread/TRACE] [durabilityshow/durabilityshow]: Sent event FMLModIdMappingEvent to mod durabilityshow
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Durability Show took 0.000s
+[10:29:57] [Server thread/TRACE] [stacksize/stacksize]: Sending event FMLModIdMappingEvent to mod stacksize
+[10:29:57] [Server thread/TRACE] [stacksize/stacksize]: Sent event FMLModIdMappingEvent to mod stacksize
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Stacksize Mod took 0.000s
+[10:29:57] [Server thread/TRACE] [torohealthmod/torohealthmod]: Sending event FMLModIdMappingEvent to mod torohealthmod
+[10:29:57] [Server thread/TRACE] [torohealthmod/torohealthmod]: Sent event FMLModIdMappingEvent to mod torohealthmod
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - ToroHealth Damage Indicators took 0.000s
+[10:29:57] [Server thread/TRACE] [waila/waila]: Sending event FMLModIdMappingEvent to mod waila
+[10:29:57] [Server thread/TRACE] [waila/waila]: Sent event FMLModIdMappingEvent to mod waila
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Waila took 0.000s
+[10:29:57] [Server thread/TRACE] [lostcities/lostcities]: Sending event FMLModIdMappingEvent to mod lostcities
+[10:29:57] [Server thread/TRACE] [lostcities/lostcities]: Sent event FMLModIdMappingEvent to mod lostcities
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - The Lost Cities took 0.000s
+[10:29:57] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.008s
+[10:29:57] [Server thread/INFO] [FML/]: Applying holder lookups
+[10:29:57] [Server thread/INFO] [FML/]: Holder lookups applied
+[10:29:57] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[10:29:57] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[10:29:57] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[10:29:57] [Server thread/INFO] [FML/]: Loading dimension 0 (新的世界) (net.minecraft.server.integrated.IntegratedServer@142714f)
+[10:29:57] [Server thread/INFO] [FML/]: Loading dimension 1 (新的世界) (net.minecraft.server.integrated.IntegratedServer@142714f)
+[10:29:57] [Server thread/INFO] [FML/]: Loading dimension -1 (新的世界) (net.minecraft.server.integrated.IntegratedServer@142714f)
+[10:29:58] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerStartingEvent to mod minecraft
+[10:29:58] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerStartingEvent to mod minecraft
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft took 0.000s
+[10:29:58] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[10:29:58] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
+[10:29:58] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[10:29:58] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
+[10:29:58] [Server thread/TRACE] [forge/forge]: Sending event FMLServerStartingEvent to mod forge
+[10:29:58] [Server thread/TRACE] [forge/forge]: Sent event FMLServerStartingEvent to mod forge
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0.001s
+[10:29:58] [Server thread/TRACE] [jei/jei]: Sending event FMLServerStartingEvent to mod jei
+[10:29:58] [Server thread/TRACE] [jei/jei]: Sent event FMLServerStartingEvent to mod jei
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Just Enough Items took 0.000s
+[10:29:58] [Server thread/TRACE] [jeresources/jeresources]: Sending event FMLServerStartingEvent to mod jeresources
+[10:29:58] [Server thread/TRACE] [jeresources/jeresources]: Sent event FMLServerStartingEvent to mod jeresources
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Just Enough Resources took 0.001s
+[10:29:58] [Server thread/TRACE] [wailaharvestability/wailaharvestability]: Sending event FMLServerStartingEvent to mod wailaharvestability
+[10:29:58] [Server thread/TRACE] [wailaharvestability/wailaharvestability]: Sent event FMLServerStartingEvent to mod wailaharvestability
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Waila Harvestability took 0.000s
+[10:29:58] [Server thread/TRACE] [durabilityshow/durabilityshow]: Sending event FMLServerStartingEvent to mod durabilityshow
+[10:29:58] [Server thread/TRACE] [durabilityshow/durabilityshow]: Sent event FMLServerStartingEvent to mod durabilityshow
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Durability Show took 0.001s
+[10:29:58] [Server thread/TRACE] [stacksize/stacksize]: Sending event FMLServerStartingEvent to mod stacksize
+[10:29:58] [Server thread/TRACE] [stacksize/stacksize]: Sent event FMLServerStartingEvent to mod stacksize
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Stacksize Mod took 0.000s
+[10:29:58] [Server thread/TRACE] [torohealthmod/torohealthmod]: Sending event FMLServerStartingEvent to mod torohealthmod
+[10:29:58] [Server thread/TRACE] [torohealthmod/torohealthmod]: Sent event FMLServerStartingEvent to mod torohealthmod
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - ToroHealth Damage Indicators took 0.000s
+[10:29:58] [Server thread/TRACE] [waila/waila]: Sending event FMLServerStartingEvent to mod waila
+[10:29:58] [Server thread/TRACE] [waila/waila]: Sent event FMLServerStartingEvent to mod waila
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Waila took 0.001s
+[10:29:58] [Server thread/TRACE] [lostcities/lostcities]: Sending event FMLServerStartingEvent to mod lostcities
+[10:29:58] [Server thread/TRACE] [lostcities/lostcities]: Sent event FMLServerStartingEvent to mod lostcities
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - The Lost Cities took 0.000s
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0.005s
+[10:29:58] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerStartedEvent to mod minecraft
+[10:29:58] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerStartedEvent to mod minecraft
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft took 0.000s
+[10:29:58] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[10:29:58] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[10:29:58] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[10:29:58] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[10:29:58] [Server thread/TRACE] [forge/forge]: Sending event FMLServerStartedEvent to mod forge
+[10:29:58] [Server thread/TRACE] [forge/forge]: Sent event FMLServerStartedEvent to mod forge
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[10:29:58] [Server thread/TRACE] [jei/jei]: Sending event FMLServerStartedEvent to mod jei
+[10:29:58] [Server thread/TRACE] [jei/jei]: Sent event FMLServerStartedEvent to mod jei
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Just Enough Items took 0.000s
+[10:29:58] [Server thread/TRACE] [jeresources/jeresources]: Sending event FMLServerStartedEvent to mod jeresources
+[10:29:58] [Server thread/TRACE] [jeresources/jeresources]: Sent event FMLServerStartedEvent to mod jeresources
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Just Enough Resources took 0.000s
+[10:29:58] [Server thread/TRACE] [wailaharvestability/wailaharvestability]: Sending event FMLServerStartedEvent to mod wailaharvestability
+[10:29:58] [Server thread/TRACE] [wailaharvestability/wailaharvestability]: Sent event FMLServerStartedEvent to mod wailaharvestability
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Waila Harvestability took 0.000s
+[10:29:58] [Server thread/TRACE] [durabilityshow/durabilityshow]: Sending event FMLServerStartedEvent to mod durabilityshow
+[10:29:58] [Server thread/TRACE] [durabilityshow/durabilityshow]: Sent event FMLServerStartedEvent to mod durabilityshow
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Durability Show took 0.000s
+[10:29:58] [Server thread/TRACE] [stacksize/stacksize]: Sending event FMLServerStartedEvent to mod stacksize
+[10:29:58] [Server thread/TRACE] [stacksize/stacksize]: Sent event FMLServerStartedEvent to mod stacksize
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Stacksize Mod took 0.000s
+[10:29:58] [Server thread/TRACE] [torohealthmod/torohealthmod]: Sending event FMLServerStartedEvent to mod torohealthmod
+[10:29:58] [Server thread/TRACE] [torohealthmod/torohealthmod]: Sent event FMLServerStartedEvent to mod torohealthmod
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - ToroHealth Damage Indicators took 0.000s
+[10:29:58] [Server thread/TRACE] [waila/waila]: Sending event FMLServerStartedEvent to mod waila
+[10:29:58] [Server thread/TRACE] [waila/waila]: Sent event FMLServerStartedEvent to mod waila
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Waila took 0.000s
+[10:29:58] [Server thread/TRACE] [lostcities/lostcities]: Sending event FMLServerStartedEvent to mod lostcities
+[10:29:58] [Server thread/TRACE] [lostcities/lostcities]: Sent event FMLServerStartedEvent to mod lostcities
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - The Lost Cities took 0.000s
+[10:29:58] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.001s
+[10:29:59] [Netty Local Client IO #0/TRACE] [FML/]: Handshake channel activating
+[10:29:59] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: null->FMLHandshakeClientState$1:START
+[10:29:59] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: HELLO
+[10:29:59] [Netty Server IO #1/TRACE] [FML/]: Handshake channel activating
+[10:29:59] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[10:29:59] [Netty Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[10:29:59] [Netty Local Client IO #0/DEBUG] [FML/]: Server FML protocol version 2, 4 byte dimension received 0
+[10:29:59] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $ServerHello->FMLHandshakeClientState$2:HELLO
+[10:29:59] [Netty Local Client IO #0/INFO] [FML/]: Server protocol version 2
+[10:29:59] [Netty Local Client IO #0/DEBUG] [FML/]: Received override dimension 0
+[10:29:59] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[10:29:59] [Netty Server IO #1/INFO] [FML/]: Client protocol version 2
+[10:29:59] [Netty Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[10:29:59] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: WAITINGSERVERDATA
+[10:29:59] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:12 mods->FMLHandshakeServerState$2:HELLO
+[10:29:59] [Netty Server IO #1/INFO] [FML/]: Client attempting to join with 12 mods : minecraft@1.11.2,jeresources@0.6.2.101,lostcities@0.0.2beta,durabilityshow@4.1.0,FML@8.0.99.99,stacksize@1.0,forge@13.20.0.2201,torohealthmod@1.11.2-8,mcp@9.19,wailaharvestability@1.1.9,waila@1.8.5,jei@4.2.2.215
+[10:29:59] [Netty Server IO #1/DEBUG] [FML/]:   Next: WAITINGCACK
+[10:29:59] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $ModList:12 mods->FMLHandshakeClientState$3:WAITINGSERVERDATA
+[10:29:59] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: PENDINGCOMPLETE
+[10:29:59] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[10:29:59] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $HandshakeAck:{2}->FMLHandshakeClientState$5:PENDINGCOMPLETE
+[10:29:59] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: COMPLETE
+[10:29:59] [Netty Server IO #1/DEBUG] [FML/]:   Next: COMPLETE
+[10:29:59] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$4:COMPLETE
+[10:29:59] [Netty Local Client IO #0/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[10:29:59] [Netty Local Client IO #0/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[10:29:59] [Netty Server IO #1/DEBUG] [FML/]:   Next: DONE
+[10:29:59] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $HandshakeAck:{3}->FMLHandshakeClientState$6:COMPLETE
+[10:29:59] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: DONE
+[10:29:59] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[10:29:59] [Netty Server IO #1/DEBUG] [FML/]:   Next: DONE
+[10:29:59] [Netty Local Client IO #0/INFO] [FML/]: [Netty Local Client IO #0] Client side modded connection established
+[10:29:59] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[10:29:59] [Client thread/DEBUG] [FML/]: Overriding dimension: using 0
+[10:29:59] [Server thread/INFO] [Waila/]: Player EntityPlayerMP['yxdown'/895, l='新的世界', x=10572.54, y=77.00, z=3007.80] connected. Sending ping
+[10:30:00] [Netty Local Client IO #0/INFO] [Waila/]: Received server authentication msg. Remote sync will be activated
+[10:30:43] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:31:28] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:32:13] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:32:58] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:33:43] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:34:28] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:35:04] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:35:35] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:36:20] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:37:05] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:37:50] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:38:35] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:39:20] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:40:05] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:40:50] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:41:07] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:41:38] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:42:23] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:43:07] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:43:52] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:44:37] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:45:22] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:46:08] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:46:52] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:47:00] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:48:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:49:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:50:13] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:50:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:51:43] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:52:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:53:13] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:53:58] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:54:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:55:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:56:13] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:56:58] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:57:43] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:58:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:59:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[10:59:36] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[11:01:53] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerStoppingEvent to mod minecraft
+[11:01:53] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerStoppingEvent to mod minecraft
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft took 0.000s
+[11:01:53] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[11:01:53] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[11:01:53] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[11:01:53] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[11:01:53] [Server thread/TRACE] [forge/forge]: Sending event FMLServerStoppingEvent to mod forge
+[11:01:53] [Server thread/TRACE] [forge/forge]: Sent event FMLServerStoppingEvent to mod forge
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[11:01:53] [Server thread/TRACE] [jei/jei]: Sending event FMLServerStoppingEvent to mod jei
+[11:01:53] [Server thread/TRACE] [jei/jei]: Sent event FMLServerStoppingEvent to mod jei
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Just Enough Items took 0.000s
+[11:01:53] [Server thread/TRACE] [jeresources/jeresources]: Sending event FMLServerStoppingEvent to mod jeresources
+[11:01:53] [Server thread/TRACE] [jeresources/jeresources]: Sent event FMLServerStoppingEvent to mod jeresources
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Just Enough Resources took 0.000s
+[11:01:53] [Server thread/TRACE] [wailaharvestability/wailaharvestability]: Sending event FMLServerStoppingEvent to mod wailaharvestability
+[11:01:53] [Server thread/TRACE] [wailaharvestability/wailaharvestability]: Sent event FMLServerStoppingEvent to mod wailaharvestability
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Waila Harvestability took 0.000s
+[11:01:53] [Server thread/TRACE] [durabilityshow/durabilityshow]: Sending event FMLServerStoppingEvent to mod durabilityshow
+[11:01:53] [Server thread/TRACE] [durabilityshow/durabilityshow]: Sent event FMLServerStoppingEvent to mod durabilityshow
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Durability Show took 0.000s
+[11:01:53] [Server thread/TRACE] [stacksize/stacksize]: Sending event FMLServerStoppingEvent to mod stacksize
+[11:01:53] [Server thread/TRACE] [stacksize/stacksize]: Sent event FMLServerStoppingEvent to mod stacksize
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Stacksize Mod took 0.000s
+[11:01:53] [Server thread/TRACE] [torohealthmod/torohealthmod]: Sending event FMLServerStoppingEvent to mod torohealthmod
+[11:01:53] [Server thread/TRACE] [torohealthmod/torohealthmod]: Sent event FMLServerStoppingEvent to mod torohealthmod
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - ToroHealth Damage Indicators took 0.000s
+[11:01:53] [Server thread/TRACE] [waila/waila]: Sending event FMLServerStoppingEvent to mod waila
+[11:01:53] [Server thread/TRACE] [waila/waila]: Sent event FMLServerStoppingEvent to mod waila
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Waila took 0.000s
+[11:01:53] [Server thread/TRACE] [lostcities/lostcities]: Sending event FMLServerStoppingEvent to mod lostcities
+[11:01:53] [Server thread/TRACE] [lostcities/lostcities]: Sent event FMLServerStoppingEvent to mod lostcities
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - The Lost Cities took 0.000s
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0.001s
+[11:01:53] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save 新的世界
+[11:01:53] [Server thread/INFO] [FML/]: Unloading dimension 0
+[11:01:53] [Server thread/INFO] [FML/]: Unloading dimension -1
+[11:01:53] [Server thread/INFO] [FML/]: Unloading dimension 1
+[11:01:53] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[11:01:53] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLModIdMappingEvent to mod minecraft
+[11:01:53] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLModIdMappingEvent to mod minecraft
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft took 0.000s
+[11:01:53] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[11:01:53] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[11:01:53] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[11:01:53] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[11:01:53] [Server thread/TRACE] [forge/forge]: Sending event FMLModIdMappingEvent to mod forge
+[11:01:53] [Server thread/TRACE] [forge/forge]: Sent event FMLModIdMappingEvent to mod forge
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.004s
+[11:01:53] [Server thread/TRACE] [jei/jei]: Sending event FMLModIdMappingEvent to mod jei
+[11:01:53] [Server thread/TRACE] [jei/jei]: Sent event FMLModIdMappingEvent to mod jei
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Just Enough Items took 0.000s
+[11:01:53] [Server thread/TRACE] [jeresources/jeresources]: Sending event FMLModIdMappingEvent to mod jeresources
+[11:01:53] [Server thread/TRACE] [jeresources/jeresources]: Sent event FMLModIdMappingEvent to mod jeresources
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Just Enough Resources took 0.000s
+[11:01:53] [Server thread/TRACE] [wailaharvestability/wailaharvestability]: Sending event FMLModIdMappingEvent to mod wailaharvestability
+[11:01:53] [Server thread/TRACE] [wailaharvestability/wailaharvestability]: Sent event FMLModIdMappingEvent to mod wailaharvestability
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Waila Harvestability took 0.000s
+[11:01:53] [Server thread/TRACE] [durabilityshow/durabilityshow]: Sending event FMLModIdMappingEvent to mod durabilityshow
+[11:01:53] [Server thread/TRACE] [durabilityshow/durabilityshow]: Sent event FMLModIdMappingEvent to mod durabilityshow
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Durability Show took 0.000s
+[11:01:53] [Server thread/TRACE] [stacksize/stacksize]: Sending event FMLModIdMappingEvent to mod stacksize
+[11:01:53] [Server thread/TRACE] [stacksize/stacksize]: Sent event FMLModIdMappingEvent to mod stacksize
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Stacksize Mod took 0.000s
+[11:01:53] [Server thread/TRACE] [torohealthmod/torohealthmod]: Sending event FMLModIdMappingEvent to mod torohealthmod
+[11:01:53] [Server thread/TRACE] [torohealthmod/torohealthmod]: Sent event FMLModIdMappingEvent to mod torohealthmod
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - ToroHealth Damage Indicators took 0.000s
+[11:01:53] [Server thread/TRACE] [waila/waila]: Sending event FMLModIdMappingEvent to mod waila
+[11:01:53] [Server thread/TRACE] [waila/waila]: Sent event FMLModIdMappingEvent to mod waila
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Waila took 0.000s
+[11:01:53] [Server thread/TRACE] [lostcities/lostcities]: Sending event FMLModIdMappingEvent to mod lostcities
+[11:01:53] [Server thread/TRACE] [lostcities/lostcities]: Sent event FMLModIdMappingEvent to mod lostcities
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - The Lost Cities took 0.000s
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.005s
+[11:01:53] [Server thread/INFO] [FML/]: Applying holder lookups
+[11:01:53] [Server thread/INFO] [FML/]: Holder lookups applied
+[11:01:53] [Server thread/DEBUG] [FML/]: Frozen state restored.
+[11:01:53] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerStoppedEvent to mod minecraft
+[11:01:53] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerStoppedEvent to mod minecraft
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft took 0.000s
+[11:01:53] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[11:01:53] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[11:01:53] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[11:01:53] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[11:01:53] [Server thread/TRACE] [forge/forge]: Sending event FMLServerStoppedEvent to mod forge
+[11:01:53] [Server thread/TRACE] [forge/forge]: Sent event FMLServerStoppedEvent to mod forge
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[11:01:53] [Server thread/TRACE] [jei/jei]: Sending event FMLServerStoppedEvent to mod jei
+[11:01:53] [Server thread/TRACE] [jei/jei]: Sent event FMLServerStoppedEvent to mod jei
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Just Enough Items took 0.000s
+[11:01:53] [Server thread/TRACE] [jeresources/jeresources]: Sending event FMLServerStoppedEvent to mod jeresources
+[11:01:53] [Server thread/TRACE] [jeresources/jeresources]: Sent event FMLServerStoppedEvent to mod jeresources
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Just Enough Resources took 0.000s
+[11:01:53] [Server thread/TRACE] [wailaharvestability/wailaharvestability]: Sending event FMLServerStoppedEvent to mod wailaharvestability
+[11:01:53] [Server thread/TRACE] [wailaharvestability/wailaharvestability]: Sent event FMLServerStoppedEvent to mod wailaharvestability
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Waila Harvestability took 0.000s
+[11:01:53] [Server thread/TRACE] [durabilityshow/durabilityshow]: Sending event FMLServerStoppedEvent to mod durabilityshow
+[11:01:53] [Server thread/TRACE] [durabilityshow/durabilityshow]: Sent event FMLServerStoppedEvent to mod durabilityshow
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Durability Show took 0.000s
+[11:01:53] [Server thread/TRACE] [stacksize/stacksize]: Sending event FMLServerStoppedEvent to mod stacksize
+[11:01:53] [Server thread/TRACE] [stacksize/stacksize]: Sent event FMLServerStoppedEvent to mod stacksize
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Stacksize Mod took 0.000s
+[11:01:53] [Server thread/TRACE] [torohealthmod/torohealthmod]: Sending event FMLServerStoppedEvent to mod torohealthmod
+[11:01:53] [Server thread/TRACE] [torohealthmod/torohealthmod]: Sent event FMLServerStoppedEvent to mod torohealthmod
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - ToroHealth Damage Indicators took 0.000s
+[11:01:53] [Server thread/TRACE] [waila/waila]: Sending event FMLServerStoppedEvent to mod waila
+[11:01:53] [Server thread/TRACE] [waila/waila]: Sent event FMLServerStoppedEvent to mod waila
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Waila took 0.000s
+[11:01:53] [Server thread/TRACE] [lostcities/lostcities]: Sending event FMLServerStoppedEvent to mod lostcities
+[11:01:53] [Server thread/TRACE] [lostcities/lostcities]: Sent event FMLServerStoppedEvent to mod lostcities
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - The Lost Cities took 0.000s
+[11:01:53] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.001s

@@ -1,0 +1,74 @@
+[21:08:28] [Client thread/INFO]: Setting user: yxdown
+[21:08:29] [Client thread/WARN]: Skipping bad option: lastServer:
+[21:08:29] [Client thread/INFO]: LWJGL Version: 2.9.4
+[21:08:30] [Client thread/INFO]: [STDOUT]: ---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+Contact their authors BEFORE contacting forge
+
+// Hey, that tickles! Hehehe!
+
+Time: 4/19/26 9:08 PM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.11.2
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 1.8.0_421, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 296487928 bytes (282 MB) / 524288000 bytes (500 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 6 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx4096m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.0 Compatibility Profile Context 26.3.1.260303' Renderer: 'AMD Radeon(TM) Graphics'
+[21:08:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Just Enough Resources, FMLFileResourcePack:Waila Harvestability, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Durability Show, FMLFileResourcePack:Stacksize Mod, FMLFileResourcePack:ToroHealth Damage Indicators, FMLFileResourcePack:Waila, FMLFileResourcePack:The Lost Cities, [原版默认重制材质包]sensecraft-10751651-MC1.11.zip
+[21:08:31] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:08:31] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[21:08:31] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:08:31] [Thread-9/INFO]: OpenAL initialized.
+[21:08:31] [Sound Library Loader/INFO]: Sound engine started
+[21:08:32] [Client thread/INFO]: Created: 16x16 textures-atlas
+[21:08:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Just Enough Resources, FMLFileResourcePack:Waila Harvestability, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Durability Show, FMLFileResourcePack:Stacksize Mod, FMLFileResourcePack:ToroHealth Damage Indicators, FMLFileResourcePack:Waila, FMLFileResourcePack:The Lost Cities, [原版默认重制材质包]sensecraft-10751651-MC1.11.zip
+[21:08:33] [Client thread/INFO]: SoundSystem shutting down...
+[21:08:33] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[21:08:33] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:08:34] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[21:08:34] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:08:34] [Thread-11/INFO]: OpenAL initialized.
+[21:08:34] [Sound Library Loader/INFO]: Sound engine started
+[21:08:34] [Client thread/INFO]: Created: 512x512 textures-atlas
+[21:08:35] [Client thread/WARN]: Skipping bad option: lastServer:
+[21:08:36] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: d692505c1ab64721b08c4b3f99034070
+[21:08:44] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[21:08:44] [Server thread/INFO]: Generating keypair
+[21:08:44] [Server thread/INFO]: Preparing start region for level 0
+[21:08:45] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:08:46] [Server thread/INFO]: yxdown[local:E:d875bae6] logged in with entity id 897 at (7123.271585762735, 71.0, 2310.2684594760112)
+[21:08:46] [Server thread/INFO]: yxdown加入了游戏
+[21:08:47] [Client thread/INFO]: [CHAT] 新的§eOptiFine§f版本现已可用：§eHD Ultra G5§f
+[21:09:39] [Client thread/INFO]: [CHAT] [Debug]: 区块边界：显示
+[21:10:27] [Client thread/INFO]: [CHAT] [Debug]: 区块边界：隐藏
+[21:10:30] [Server thread/INFO]: Saving and pausing game...
+[21:10:30] [Server thread/INFO]: Saving chunks for level '新的世界'/Overworld
+[21:10:31] [Server thread/INFO]: Saving chunks for level '新的世界'/Nether
+[21:10:31] [Server thread/INFO]: Saving chunks for level '新的世界'/The End
+[21:10:32] [Server thread/INFO]: Stopping server
+[21:10:32] [Server thread/INFO]: Saving players
+[21:10:32] [Server thread/INFO]: yxdown lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:10:32] [Server thread/INFO]: yxdown退出了游戏
+[21:10:33] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[21:10:33] [Server thread/INFO]: Saving worlds
+[21:10:33] [Server thread/INFO]: Saving chunks for level '新的世界'/Overworld
+[21:10:33] [Server thread/INFO]: Saving chunks for level '新的世界'/Nether
+[21:10:33] [Server thread/INFO]: Saving chunks for level '新的世界'/The End
+[21:10:34] [Client thread/INFO]: Stopping!
+[21:10:34] [Client thread/INFO]: SoundSystem shutting down...
+[21:10:34] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
