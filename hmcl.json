@@ -1,0 +1,75 @@
+{
+  "last": "Default",
+  "bgpath": "",
+  "clientToken": "bc902c24-8061-45e5-ab1b-ff55b0de4b19",
+  "enableShadow": false,
+  "decorated": false,
+  "enableAnimation": true,
+  "theme": 4,
+  "java": [
+    {
+      "ver": "1.8.0_101",
+      "platform": 2,
+      "location": "C:\\Program Files\\Java\\jre1.8.0_101\\bin"
+    },
+    {
+      "ver": "1.8.0_131",
+      "platform": 2,
+      "location": "C:\\Program Files\\Java\\jre1.8.0_131\\bin"
+    },
+    {
+      "ver": "1.8.0_191",
+      "platform": 2,
+      "location": "C:\\Program Files\\Java\\jre1.8.0_191\\bin"
+    },
+    {
+      "ver": "1.8.0_221",
+      "platform": 1,
+      "location": "C:\\Program Files (x86)\\Java\\jre1.8.0_221\\bin"
+    },
+    {
+      "ver": "1.8.0_241",
+      "platform": 1,
+      "location": "C:\\Program Files (x86)\\Java\\jre1.8.0_241\\bin"
+    },
+    {
+      "ver": "1.8.0_391",
+      "platform": 2,
+      "location": "C:\\Program Files\\Java\\jre-1.8\\bin"
+    },
+    {
+      "ver": "1.8.0_421",
+      "platform": 2,
+      "location": "C:\\Program Files\\Java\\jre1.8.0_421\\bin"
+    }
+  ],
+  "logintype": 0,
+  "downloadSourcetype": 3,
+  "configurations": {
+    "Default": {
+      "name": "Default",
+      "selectedMinecraftVersion": "1.11.2-forge1.11.2-13.20.0.2201",
+      "gameDir": ".minecraft\\"
+    },
+    "Home": {
+      "name": "Home",
+      "selectedMinecraftVersion": "",
+      "gameDir": "C:\\Users\\YxdownSJ\\AppData\\Roaming\\.minecraft"
+    }
+  },
+  "auth": {
+    "yggdrasil": {
+      "IAuthenticator_UserName": "773515826@qq.com",
+      "userid": "773515826@qq.com",
+      "username": "773515826@qq.com"
+    },
+    "offline": {
+      "uuidMap": {
+        "yxdown": "d692505c1ab64721b08c4b3f99034070",
+        "woriaty": "052d0a47792d4b11e73ecebe24a5136d"
+      },
+      "IAuthenticator_UserName": "yxdown"
+    }
+  },
+  "ignoreRecommend": []
+}

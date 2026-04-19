@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window size="600,480" caption="0,0,0,36" roundcorner="4,4" >
+	<Font shared="true" id="0" name="微软雅黑" size="14" />
+	<Font shared="true" id="1" name="微软雅黑" size="24" />
+
+	<VerticalLayout inset="0,0,0,0" bkimage="file='bk.png' corner='0,0,0,0' mask='#FFFF00FF'" >
+		<HorizontalLayout height="10" inset="2,2,0,0">
+
+		</HorizontalLayout>
+		<Container>
+			<Button name="closebtn2" float="true" tooltip="关闭" pos="530, 0, 562, 24" normalimage="file='关闭-正常.png' mask='#FFFF00FF'" hotimage="关闭-点击.png' mask='#FFFF00FF'" pushedimage="file='关闭-悬停.png' 
+			mask='#FFFF00FF'"/>
+			<Button name="minmaxbtn2" float="true" tooltip="最小化" pos="480, 0, 512, 24" normalimage="file='最小化-正常.png' mask='#FFFF00FF'" hotimage="file='最小化-点击.png' mask='#FFFF00FF'" pushedimage="file='最小化-悬停.png' mask='#FFFF00FF'"/>
+			
+			<Label name = "start" font = "1" text="正在为您检测Java8安装环境" float="true" textcolor= "#FFFFFFFF"  bold="true" size = "12" pos="180, 20, 480, 55" width="400" height="50"/>
+			<Label name = "noinstall" font = "1" text="您的系统未安装Java8，正在为您安装，请稍等" float="true" textcolor= "#FFFFFFFF"  bold="true" size = "12" pos="70, 20, 470, 55" width="400" height="50"/>
+			<Label name = "install" font = "1" text="您的系统已安装了Java8" float="true" textcolor= "#FFFFFFFF"  bold="true" size = "12" pos="180, 20, 448, 55" width="320" height="50"/>
+			
+			
+			<GifAnim name="gif" pos ="130, 80, 480, 430" float="true" bkimage="jiance.gif" autoplay="true" />  
+
+			
+		</Container>
+    </VerticalLayout>
+</Window>
